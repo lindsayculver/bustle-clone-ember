@@ -1,3 +1,27 @@
-<h2 id="title">Welcome to Ember</h2>
 
-{{outlet}}
+<header>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+        <h1>BUSTLE</h1>
+        <div class="navbar-header">
+        <a class="navbar-brand" href="/">NEWS</a>
+        <a class="navbar-brand" href="/">ENTERTAINMENT</a>
+        <a class="navbar-brand" href="/">FASHION & BEAUTY</a>
+        <a class="navbar-brand" href="/">LIFESTYLE</a>
+        <a class="navbar-brand" href="/">BOOKS</a>
+        <a class="navbar-brand" href="/">EXPLORE</a>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<div class="container">
+  {{outlet}}
+</div>
+
+<hr>
+
+<footer>
+  <!-- {{#link-to 'contact'}}Contact Us{{/link-to}} -->
+</footer>

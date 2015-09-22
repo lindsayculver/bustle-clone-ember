@@ -1,0 +1,23 @@
+.articles img{
+  width: 350px;
+  height: 300px;
+}
+
+.article {
+  display: inline;
+}
+
+h1, h4{
+  font-family: 'PT Sans Narrow', sans-serif;
+  opacity: .8;
+}
+
+.navbar-header {
+  float: right;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.navbar-brand {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 14px;
+}
